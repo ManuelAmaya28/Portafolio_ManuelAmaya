@@ -1,0 +1,31 @@
+.borde {
+    text-align: center;
+    height: 450px;
+    
+    padding: 50px;
+}
+.borde1 {
+    text-align: center;
+    height: 550px;
+   
+    padding: 50px;
+}
+
+.foto {
+
+
+    border-radius: 30px;
+}
+
+
+body {
+    background-color: darkgrey;
+}
+.body {
+    background-color: darkgrey;
+}
+
+.text1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
