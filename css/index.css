@@ -1,31 +1,166 @@
-.borde {
-    text-align: center;
-    height: 450px;
-    
-    padding: 50px;
-}
-.borde1 {
-    text-align: center;
-    height: 550px;
-   
-    padding: 50px;
-}
-
+/* Foto Manuel Amaya */
 .foto {
-
-
+    width: 250px;
     border-radius: 30px;
+    box-shadow: 8px 8px;
+}
+
+/* Sección de presentacion */
+.presentacion {
+    display: grid;
+    place-items: center;
+    padding: 120px;
+    text-align: center;
+    color: #9fc5d6;
+    background-image: url('/src/FondoMorado.jpg')
+}
+
+/* Sección Sobre Mi */
+.sobreMi {
+    background-color: #540BA2;
+    background-image: url('/src/simbolo.png');
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    display: grid;
+    place-items: center;
+    padding: 160px;
+    text-align: center;
+    color: #9fc5d6;
+}
+
+/* Grid SobreMi */
+.sobreMi {
+    display: grid;
+
+    grid-template-rows: auto;
+    grid-template-columns: auto auto;
+
+    grid-template-areas:
+        'textAbout imgSimbolo';
+
+    height: 100%;
+}
+
+.textAbout {
+    grid-area: textAbout;
+}
+
+.imgSimbolo {
+    grid-area: imgSimbolo;
+    padding-top: 60px;
+}
+
+/*  Tamaño de la imagen "Simbolo" */
+.simbolo {
+    width: 80%;
 }
 
 
-body {
-    background-color: darkgrey;
-}
-.body {
-    background-color: darkgrey;
+/* Sección de experiencia */
+/* fondo para .experiencia */
+.experiencia {
+    background-image: url('/src/FondoMorado2.jpg');
+    display: grid;
+    place-items: center;
+    padding: 30px;
+    text-align: center;
+    color: #9fc5d6;
 }
 
-.text1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
+/* Experiencia Generation */
+
+.tituloExperiencia {
+    display: grid;
+    place-items: center;
+    padding: 30px;
+    text-align: center;
+    color: #9fc5d6;
+}
+
+.experienciaGeneration {
+    padding: 30px;
+}
+
+.generation {
+    border-radius: 30px;
+    box-shadow: 8px 8px;
+    width: 50%;
+}
+
+
+/* Experiencia Los Delfines */
+.experienciaLosDelfines {
+    padding: 30px;
+}
+
+.LosDelfines {
+    border-radius: 30px;
+    box-shadow: 8px 8px;
+    background-color: #1b3039;
+    padding: 20px;
+    width: 50%;
+}
+
+/* grid experiencia */
+.experiencia {
+    display: grid;
+
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+
+    grid-template-areas:
+        'tituloExperiencia tituloExperiencia'
+        'experienciaGeneration experienciaLosDelfines';
+
+    height: 100%;
+}
+
+.tituloExperiencia {
+    grid-area: tituloExperiencia;
+}
+
+.experienciaGeneration {
+    grid-area: experienciaGeneration;
+}
+
+.experienciaLosDelfines {
+    grid-area: experienciaLosDelfines;
+}
+
+/* media celular */
+@media (max-width: 768px) {
+
+    /* media celular expericiencia */
+    .experiencia {
+        display: grid;
+
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto;
+
+        grid-template-areas:
+            'tituloExperiencia'
+            'experienciaGeneration'
+            'experienciaLosDelfines';
+
+        height: 100%;
+    }
+
+    .tituloExperiencia {
+        grid-area: tituloExperiencia;
+    }
+
+    .experienciaGeneration {
+        grid-area: experienciaGeneration;
+    }
+
+    .experienciaLosDelfines {
+        grid-area: experienciaLosDelfines;
+    }
+
+}
+
+/* Scroll */
+.seccion{
+    scroll-margin-top: 8ex ;
 }
