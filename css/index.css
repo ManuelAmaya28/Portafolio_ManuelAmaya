@@ -14,13 +14,13 @@
     padding: 120px;
     text-align: center;
     color: #9fc5d6;
-    background-image: url('/src/FondoMorado.jpg')
+    background-image: url('./src/FondoMorado.jpg')
 }
 
 /* Sección Sobre Mi */
 .sobreMi {
     background-color: #540BA2;
-    background-image: url('/src/simbolo.png');
+    background-image: url('./src/simbolo.png');
     background-position: center;
     background-size: 40%;
     background-repeat: no-repeat;
@@ -62,7 +62,7 @@
 /* Sección de experiencia */
 /* fondo para .experiencia */
 .experiencia {
-    background-image: url('/src/FondoMorado2.jpg');
+    background-image: url('./src/FondoMorado2.jpg');
     display: grid;
     place-items: center;
     padding: 30px;
