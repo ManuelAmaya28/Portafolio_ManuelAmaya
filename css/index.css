@@ -11,10 +11,10 @@
 .presentacion {
     display: grid;
     place-items: center;
-    padding: 120px;
+    padding: 100px 10px 60px;
     text-align: center;
     color: #9fc5d6;
-    background-image: url('../src/FondoMorado.jpg');
+    background: url('../src/FondoMorado.jpg') center;
 }
 
 /* Sección Sobre Mi */
@@ -22,11 +22,11 @@
     background-color: #540BA2;
     background-image: url('../src/simbolo.png');
     background-position: center;
-    background-size: 40%;
+    background-size: 70%;
     background-repeat: no-repeat;
     display: grid;
     place-items: center;
-    padding: 160px;
+    padding: 160px 30px 160px;
     text-align: center;
     color: #9fc5d6;
 }
