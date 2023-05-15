@@ -19,44 +19,19 @@
 
 /* Sección Sobre Mi */
 .sobreMi {
-    background-color: #863adc;
+    background-color: #8b4ad6;
     background-image: url('../src/simbolo.png');
     background-position: center;
     background-size: 70%;
     background-repeat: no-repeat;
     display: grid;
     place-items: center;
-    padding: 160px 30px 160px;
+    padding: 160px 50px 160px;
     text-align: center;
     color: #21313ff2;
 }
 
-/* Grid SobreMi */
-.sobreMi {
-    display: grid;
 
-    grid-template-rows: auto;
-    grid-template-columns: auto auto;
-
-    grid-template-areas:
-        'textAbout imgSimbolo';
-
-    height: 100%;
-}
-
-.textAbout {
-    grid-area: textAbout;
-}
-
-.imgSimbolo {
-    grid-area: imgSimbolo;
-    padding-top: 60px;
-}
-
-/*  Tamaño de la imagen "Simbolo" */
-.simbolo {
-    width: 80%;
-}
 
 
 /* Sección de experiencia */
@@ -89,7 +64,9 @@
     border-radius: 30px;
     box-shadow: 8px 8px;
     width: 50%;
+
 }
+
 
 
 /* Experiencia Los Delfines */
