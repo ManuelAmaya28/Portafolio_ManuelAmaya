@@ -19,7 +19,7 @@
 
 /* Sección Sobre Mi */
 .sobreMi {
-    background-color: #540BA2;
+    background-color: #863adc;
     background-image: url('../src/simbolo.png');
     background-position: center;
     background-size: 70%;
@@ -28,7 +28,7 @@
     place-items: center;
     padding: 160px 30px 160px;
     text-align: center;
-    color: #9fc5d6;
+    color: #21313ff2;
 }
 
 /* Grid SobreMi */
@@ -62,12 +62,13 @@
 /* Sección de experiencia */
 /* fondo para .experiencia */
 .experiencia {
-    background-image: url('../src/FondoMorado2.jpg');
+    background: url('../src/FondoMorado2.jpg') center;
+    background-size: cover;
     display: grid;
     place-items: center;
     padding: 30px;
     text-align: center;
-    color: #9fc5d6;
+    color: #21313ff2;
 }
 
 /* Experiencia Generation */
@@ -77,7 +78,7 @@
     place-items: center;
     padding: 30px;
     text-align: center;
-    color: #9fc5d6;
+    color: #21313ff2;
 }
 
 .experienciaGeneration {
