@@ -6,7 +6,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 10px 100px;
+	padding-top: 90px;
+
 }
 
 .container:after{
@@ -32,9 +33,9 @@
 }
 
 .left{
-	background: url("../src/logoBlack.png") no-repeat center;
+    background: url("../src/logoBlack.png") no-repeat center;
 	background-size: cover;
-	aspect-ratio: 10/6;
+	height: 80%;
 }
 
 .right{
@@ -117,11 +118,13 @@ textarea{
 
 html{
     scroll-behavior: smooth;
-}
+} 
 
 body{
     background-image: url('../src/FondoMorado.jpg')
 }
+
+
 
 /* navbar */
 .header {
@@ -131,6 +134,9 @@ body{
     align-items: center;
     height: 85px;
     padding: 5px 10%;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 
 .header .logo {
