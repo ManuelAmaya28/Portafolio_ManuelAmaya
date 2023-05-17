@@ -24,7 +24,7 @@
             <ul class="nav-links">
                 <li><a href="#sobreMi">Sobre mí</a></li>
                 <li><a href="#experiencia">Proyectos</a></li>
-                <li><a href="#">Servicios</a></li>
+                <li><a href="#Habilidades">Habilidades</a></li>
             </ul>
         </nav>
         <a class="btn" href="./contacto.html"><button>Contacto</button></a>
@@ -32,12 +32,12 @@
         <a onclick="openNav()" class="menu"><button>Menú</button></a>
 
         <div id="mobile-menu" class="overlay">
-            <a onclick="closeNav()"  class="close">&times;</a>
+            <a onclick="closeNav()" class="close">&times;</a>
             <div class="overlay-content">
                 <a onclick="closeNav()" href="#">Inicio</a>
                 <a onclick="closeNav()" href="#sobreMi">Sobre mí</a>
                 <a onclick="closeNav()" href="#experiencia">Proyectos</a>
-                <a href="#">Servicios</a>
+                <a href="#Habilidades">Habilidades</a>
                 <a href="./contacto.html">Contacto</a>
             </div>
         </div>
@@ -45,82 +45,121 @@
 
     <!-- Body -->
 
-    
-        <!-- Sección Presentacion -->
-        <div class="presentacion seccion" id="presentacion">
-            <img data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="1500" class="foto" src="./src/foto_manuel-removebg-preview.png" alt="Foto perfil">
+
+    <!-- Sección Presentacion -->
+    <div class="presentacion seccion" id="presentacion">
+        <img data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="foto"
+            src="./src/foto_manuel-removebg-preview.png" alt="Foto perfil">
+        <br>
+        <h1 class=" text1">Hola, soy Manuel Amaya.</h1>
+        <h2>Desarrollador Web Java Full Stack Jr. / Ingeniero Industrial Logístico.</h2>
+    </div>
+
+    <!-- Sección Sobre Mi -->
+    <div class="sobreMi seccion" id="sobreMi">
+        <div class="textAbout">
+            <h1>Mucho gusto. Sobre de mí:</h1>
             <br>
-            <h1 class=" text1">Hola, soy Manuel Amaya.</h1>
-            <h2>Desarrollador Web Java Full Stack Jr. / Ingeniero Industrial Logístico.</h2>
+            <p>Busco soluciones a problemas desde un punto de vista diferente que permita a las empresas
+                obtener resultados eficientes y con ello obtener mayor experiencia en cada paso que emprendo.
+                Soy Ingeniero Industrial con enfoque logístico, me gusta el área de la tecnología y
+                actualmente soy Desarrollador Web Java Full Stack para la creación y seguimiento de paginas web y
+                apps
+                con
+                conocimiento en HTML, CSS, JavaScript y Java.
+            </p>
+        </div>
+    </div>
+
+    <div>
+
+
+    </div>
+
+    <!-- Sección Experiencia -->
+
+    <div class="experiencia seccion" id="experiencia">
+        <h1 class="tituloExperiencia">Experiencia en Desarrollo Web</h1>
+
+        <div class="experienciaGeneration">
+            <div class="imgGeneration">
+                <a href="https://mexico.generation.org/" target="_blank"> <img data-aos="zoom-out-up"
+                        src="./src/generationconfondo.jpg" alt="generation logo" class="generation"></a>
+            </div>
+            <br>
+            <p>Generation México es un bootcamp para el desarrollo de habilidades técnicas como Desarrollador
+                Web Java Full Stack Jr con herramientas de uso actual como HTML, CSS, JavaScript, JUnit, Java,
+                Frameworks
+                (Frontend y Backend), MySQL, GitHub, etc, junto con el desarrollo de habilidades blandas como
+                trabajo en
+                equipo, atención al detalle, resiliencia, entre otras.
+            </p>
+        </div>
+        <div class="experienciaLosDelfines">
+            <div class="imgLosDelfines">
+                <a href="https://saidgama.github.io/LosDelfines/" target="_blank"> <img data-aos="zoom-out-up"
+                        src="./src/LosDelfinesLogo.png" alt="los delfines logo" class="LosDelfines"></a>
+            </div>
+            <br>
+            <p>Desarrollo de proyecto e-commerce “Los Delfines”:
+                Trabajo bajo la metodología SCRUM: Desempeñé cargo de Product Owner.
+                Diseño de Wireframes y presentación al cliente por medio de Figma.
+                Desarrollé la página con herramientas CSS, JavaScript, Java, Springboot, etc (Estilos, validación de
+                formularios, animaciones, base de datos).
+            </p>
+        </div>
+    </div>
+
+
+    <h1 style="background-color: #8b4ad6; text-align: center; padding: 50px;" id="Habilidades">Habilidades Técnicas</h1>
+    <div class="main-container">
+        <div class="cards">
+            <img src="./src/html.png" alt=""/>
+            <h4>HTML</h4>
+        </div>
+        <div class="cards">
+            <img src="./src/css.png"
+                alt="" />
+            <h4>CSS</h4>
+        </div>
+        <div class="cards">
+            <img src="./src/Unofficial_JavaScript_logo_2.svg.png" alt="" />
+            <h4>JavaScript</h4>
+        </div>
+        <div class="cards">
+            <img src="./src/java.png" alt="Java" />
+            <h4>Java</h4>
         </div>
 
-        <!-- Sección Sobre Mi -->
-        <div class="sobreMi seccion" id="sobreMi">
-            <div class="textAbout">
-                <h1>Mucho gusto. Sobre de mí:</h1>
-                <br>
-                <p>Busco soluciones a problemas desde un punto de vista diferente que permita a las empresas
-                    obtener resultados eficientes y con ello obtener mayor experiencia en cada paso que emprendo.
-                    Soy Ingeniero Industrial con enfoque logístico, me gusta el área de la tecnología y
-                    actualmente soy Desarrollador Web Java Full Stack para la creación y seguimiento de paginas web y
-                    apps
-                    con
-                    conocimiento en HTML, CSS, JavaScript y Java.
-                </p>
-            </div>
+        <div class="cards">
+            <img src="./src/spring-boot.png" alt="" />
+            <h4>Spring Boot</h4>
         </div>
-
-        <!-- Sección Experiencia -->
-
-        <div class="experiencia seccion" id="experiencia">
-            <h1 class="tituloExperiencia">Experiencia en Desarrollo Web</h1>
-
-            <div class="experienciaGeneration">
-                <div class="imgGeneration">
-                    <a href="https://mexico.generation.org/" target="_blank"> <img data-aos="zoom-out-up" src="./src/generationconfondo.jpg" alt="generation logo" class="generation"></a>
-                </div>
-                <br>
-                <p>Generation México es un bootcamp para el desarrollo de habilidades técnicas como Desarrollador
-                    Web Java Full Stack Jr con herramientas de uso actual como HTML, CSS, JavaScript, JUnit, Java,
-                    Frameworks
-                    (Frontend y Backend), MySQL, GitHub, etc, junto con el desarrollo de habilidades blandas como
-                    trabajo en
-                    equipo, atención al detalle, resiliencia, entre otras.
-                </p>
-            </div>
-            <div class="experienciaLosDelfines">
-                <div class="imgLosDelfines">
-                 <a href="https://saidgama.github.io/LosDelfines/" target="_blank">   <img data-aos="zoom-out-up" src="./src/LosDelfinesLogo.png" alt="los delfines logo" class="LosDelfines"></a>
-                </div>
-                <br>
-                <p>Desarrollo de proyecto e-commerce “Los Delfines”:
-                    Trabajo bajo la metodología SCRUM: Desempeñé cargo de Product Owner.
-                    Diseño de Wireframes y presentación al cliente por medio de Figma.
-                    Desarrollé la página con herramientas CSS, JavaScript, Java, Springboot, etc (Estilos, validación de formularios, animaciones, base de datos).
-                </p>
-            </div>
+        <div class="cards">
+            <img src="./src/JUnit.png" alt="" />
+            <h4>JUnit</h4>
         </div>
-    
-        <div class="containerFlotante">
-            <input type="checkbox" id="btn-mas">
-            <div class="redes">
-                <a href="https://wa.me/9999506963?text=Hola" target="_blank" class="fa icon-whatsapp"></a>
-                <a href="https://www.linkedin.com/in/manuel-amaya28/" target="_blank" class="fa icon-linkedin-squared"></a>
-                <a href="https://github.com/ManuelAmaya28" target="_blank" class="fa icon-github-circled"></a>
-            </div>
-            <div class="btn-mas">
-                <label for="btn-mas" class="fa icon-plus"></label>
-            </div>
+    </div>
+
+    <div class="containerFlotante">
+        <input type="checkbox" id="btn-mas">
+        <div class="redes">
+            <a href="https://wa.me/9999506963?text=Hola" target="_blank" class="fa icon-whatsapp"></a>
+            <a href="https://www.linkedin.com/in/manuel-amaya28/" target="_blank" class="fa icon-linkedin-squared"></a>
+            <a href="https://github.com/ManuelAmaya28" target="_blank" class="fa icon-github-circled"></a>
         </div>
+        <div class="btn-mas">
+            <label for="btn-mas" class="fa icon-plus"></label>
+        </div>
+    </div>
 
     <!-- Scripts -->
     <script type="text/javascript" src="./js/nav.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
+
 </body>
 
 </html>

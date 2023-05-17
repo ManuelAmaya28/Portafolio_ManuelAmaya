@@ -11,7 +11,7 @@
 .presentacion {
     display: grid;
     place-items: center;
-    padding: 100px 10px 60px;
+    padding: 100px 50px 60px;
     text-align: center;
     color: #9fc5d6;
     background: url('../src/FondoMorado.jpg') center;
@@ -20,9 +20,9 @@
 /* Sección Sobre Mi */
 .sobreMi {
     background-color: #8b4ad6;
-    background-image: url('../src/simbolo.png');
+    background-image: url('../src/world.png');
     background-position: center;
-    background-size: 70%;
+    background-size: 50%;
     background-repeat: no-repeat;
     display: grid;
     place-items: center;
@@ -144,3 +144,52 @@
 .seccion{
     scroll-margin-top: 8ex ;
 }
+
+
+
+/* Cards */
+.cards {
+    display: inline-block;
+    padding: 50px 60px;
+    border-radius: 20px;
+    border: 1px rgba(211, 211, 211, 0.486) solid;
+    margin: 40px;
+    transition: 0.6s;
+    background-color: aliceblue;
+    text-align: center;
+  }
+  
+  .cards:hover {
+    transition: 0.6s;
+    box-shadow: 5px 5px 20px lightgray;
+  }
+  
+  .cards img {
+    transition: 0.2s;
+    width: 140px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    padding: 2px;
+  }
+  
+  .cards:hover img {
+    transition: 0.2s;
+    outline: 4px solid grey;
+  }
+  
+  .cards p {
+    color: grey;
+  }
+    
+
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #8b4ad6;
+    background-image: url(../src/simbolo.png);
+    background-repeat: no-repeat ;
+    background-position: center;
+  }
+  

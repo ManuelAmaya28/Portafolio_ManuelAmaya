@@ -78,11 +78,11 @@ btnEnviar.addEventListener("click", function(event){
     
     Email.send({
         Host : "smtp.elasticemail.com",
-        Username : "saidgama@gmail.com", 
-        Password : "562FD858F053C7F688C2020A3B889C97A8D4",
-        To : 'basura0970@gmail.com',
-        From : "sgamap8@gmail.com",
-        Subject : "buzon de quejas y sugerencias",
+        Username : "Manuel.amaya.acosta@hotmail.com", 
+        Password : "15A126D5777A4F1F4C66AFC68713594BE33C",
+        To : 'Manuel.amaya.acosta97@gmail.com',
+        From : "Manuel.amaya.acosta@hotmail.com",
+        Subject : "Buzon de quejas y sugerencias",
         Body : (" Nombre: " + campNombre.value + " Correo :" + campEmail.value + " Telefono: " + campTelefono.value + " Mensaje: " + campMensaje.value)
     }).then(
       message => mostrarValidacion()
