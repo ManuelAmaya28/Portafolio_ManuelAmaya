@@ -1,12 +1,43 @@
 /* Foto Manuel Amaya */
 .foto {
-    width: 250px;
+    width: 240px;
     border-radius: 30px;
     box-shadow: 8px 8px;
 }
 
-.text1{
-padding: 10px;
+.textHola {
+    padding: 6px;
+    font-size: 30px;
+}
+
+.textManuel {
+    padding: 6px;
+    font-size: 50px;
+}
+
+.desarrollador {
+    padding: 6px;
+    font-size: 25px;
+}
+
+.textoManuel {
+    width: 14ch;
+    animation: texto 2s steps(18), cursor 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+}
+
+@keyframes texto {
+    from {
+        width: 0
+    }
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent
+    }
 }
 
 /* Sección de presentacion */
@@ -33,9 +64,6 @@ padding: 10px;
     text-align: center;
     color: #DFB6B2;
 }
-
-
-
 
 /* Sección de experiencia */
 /* fondo para .experiencia */
@@ -68,6 +96,7 @@ padding: 10px;
     border-radius: 30px;
     box-shadow: 8px 8px;
     width: 50%;
+    margin: 30px;
 }
 
 /* Experiencia Los Delfines */
@@ -81,6 +110,7 @@ padding: 10px;
     background-color: #1b3039;
     padding: 20px;
     width: 50%;
+    margin: 30px;
 }
 
 /* grid experiencia */
@@ -111,6 +141,22 @@ padding: 10px;
 
 /* media celular */
 @media (max-width: 768px) {
+
+
+    .textHola {
+        padding: 4px;
+        font-size: 20px;
+    }
+
+    .textManuel {
+        padding: 6px;
+        font-size: 30px;
+    }
+
+    .desarrollador {
+        padding: 6px;
+        font-size: 25px;
+    }
 
     .sobreMi {
         background-size: 650px;
@@ -194,7 +240,8 @@ padding: 10px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgb(70, 39, 77);;
+    background-color: rgb(70, 39, 77);
+    ;
     background-image: url(../src/simbolo.png);
     background-repeat: no-repeat;
     background-position: center;
