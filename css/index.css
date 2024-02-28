@@ -46,14 +46,14 @@
     place-items: center;
     padding: 108px 10px 120px 10px;
     text-align: center;
-    color: lightgray;
+    color: #1b3039;
     /* background: url('../src/FondoMorado.jpg') center; */
-    background-color: #522B5B;
+    /* background-color: white; */
 }
 
 /* Sección Sobre Mi */
 .sobreMi {
-    background-color: rgb(70, 39, 77);
+    background-color: rgb(247, 247, 247);
     background-image: url('../src/world.png');
     background-position: center;
     background-size: 500px;
@@ -62,20 +62,20 @@
     place-items: center;
     padding: 160px 50px 160px;
     text-align: center;
-    color: #DFB6B2;
+    color: #1b3039;
 }
 
 /* Sección de experiencia */
 /* fondo para .experiencia */
 .experiencia {
     /*    background: url('../src/FondoMorado2.jpg') center;*/
-    background-color: #522B5B;
+    /* background-color: #522B5B; */
     background-size: cover;
     display: grid;
     place-items: center;
     padding: 30px;
     text-align: center;
-    color: #DFB6B2;
+    color: #1b3039;
 }
 
 /* Experiencia Generation */
@@ -85,7 +85,7 @@
     place-items: center;
     padding: 30px;
     text-align: center;
-    color: #DFB6B2;
+    color: #1b3039;
 }
 
 .experienciaGeneration {
@@ -240,8 +240,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgb(70, 39, 77);
-    ;
+    background-color: #f7f7f7;
     background-image: url(../src/simbolo.png);
     background-repeat: no-repeat;
     background-position: center;
