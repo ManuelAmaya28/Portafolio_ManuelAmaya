@@ -44,7 +44,7 @@
 .presentacion {
     display: grid;
     place-items: center;
-    padding: 108px 10px 120px 10px;
+    padding: 100px 10px 60px 10px;
     text-align: center;
     color: #1b3039;
     /* background: url('../src/FondoMorado.jpg') center; */
@@ -145,17 +145,17 @@
 
     .textHola {
         padding: 4px;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .textManuel {
-        padding: 6px;
-        font-size: 30px;
+        padding: 4px;
+        font-size: 25px;
     }
 
     .desarrollador {
-        padding: 6px;
-        font-size: 25px;
+        /* padding: 2px; */
+        font-size: 15px;
     }
 
     .sobreMi {
@@ -163,7 +163,7 @@
     }
 
     .foto {
-        width: 220px;
+        width: 210px;
     }
 
     /* media celular expericiencia */
@@ -199,6 +199,11 @@
 .seccion {
     scroll-margin-top: 8ex;
 }
+
+.scrollHabilidades {
+    scroll-margin-top: 5ex;
+}
+
 
 /* Cards */
 .cards {
